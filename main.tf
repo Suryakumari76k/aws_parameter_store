@@ -7,7 +7,7 @@ resource "aws_ssm_parameter" "f11" {
 
 variable "params" {
   default = [
-    { name: "Seetha", type: "String", value: "Seetha@123" },
-    { name: "Gopal", type: "String", value: "Gopal@123" },
+    { name: "Rama", type: "String", value: "Rama@123" },
+    { name: "Lakshman", type: "String", value: "Lakshman@123" },
   ]
 }
